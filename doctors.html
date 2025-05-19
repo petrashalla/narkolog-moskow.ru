@@ -1,0 +1,872 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/build/build/swiper.css">
+    <link rel="stylesheet" href="assets/css/build/build/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    
+    <title>Name</title>
+    <meta name='keywords' content='' />
+    <meta name='description' content='' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="assets/js/build/swiper-bundle.min.js" defer></script> 
+    <script src="assets/js/build/fancybox.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/swipers.js" defer></script>
+    <script src="assets/js/request.js" defer></script>
+    <script src="assets/js/sourcebuster.min.js" defer></script>
+    <script> </script>
+</head>
+<body>
+<div class="page">
+        <header class="header" id="header">
+    
+    
+            <div class="header__inner container">
+    
+                    <div class="header__top">
+                        <div class="header__info">
+                            <div class="header__info_item">
+                                <picture class="header__info_icon">
+                                    <source srcset="assets/img/icons/location.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/location.png" alt="Адрес">
+                                </picture>
+                                <p class="header__info_text"><button class="popup-btn" data-path="popup-city">Москва, ул. Максима Горького, д. 68/49</button></p>                                
+                            </div>
+    
+                            <div class="header__info_item">
+                                <picture class="header__info_icon">
+                                    <source srcset="assets/img/icons/phone.svg" type="image/svg+xml">
+                                    <img src="assets/img/icons/phone.png" alt="Телефон">
+                                </picture>
+                                <p class="header__info_text"><a href="tel:89003284848">+7 (900) 328-48-48</a></p>
+                            </div>
+                        </div>
+    
+    
+                        <div class="header__networks">
+                            <a href="#" class="header__network">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20C8.23277 20.003 6.4966 19.5353 4.97002 18.645L0.00401546 20L1.35602 15.032C0.464974 13.5049 -0.00308163 11.768 1.52687e-05 10C1.52687e-05 4.477 4.47702 0 10 0ZM6.59202 5.3L6.39201 5.308C6.26271 5.31691 6.13636 5.35087 6.02002 5.408C5.91159 5.46951 5.81258 5.5463 5.72602 5.636C5.60602 5.749 5.53802 5.847 5.46502 5.942C5.09514 6.4229 4.89599 7.01331 4.89902 7.62C4.90102 8.11 5.02902 8.587 5.22902 9.033C5.63802 9.935 6.31102 10.89 7.19902 11.775C7.41302 11.988 7.62302 12.202 7.84902 12.401C8.95245 13.3724 10.2673 14.073 11.689 14.447L12.257 14.534C12.442 14.544 12.627 14.53 12.813 14.521C13.1042 14.5056 13.3885 14.4268 13.646 14.29C13.7769 14.2223 13.9047 14.1489 14.029 14.07C14.029 14.07 14.0714 14.0413 14.154 13.98C14.289 13.88 14.372 13.809 14.484 13.692C14.568 13.6053 14.638 13.5047 14.694 13.39C14.772 13.227 14.85 12.916 14.882 12.657C14.906 12.459 14.899 12.351 14.896 12.284C14.892 12.177 14.803 12.066 14.706 12.019L14.124 11.758C14.124 11.758 13.254 11.379 12.722 11.137C12.6663 11.1128 12.6067 11.0989 12.546 11.096C12.4776 11.0888 12.4084 11.0965 12.3432 11.1184C12.278 11.1403 12.2182 11.176 12.168 11.223C12.163 11.221 12.096 11.278 11.373 12.154C11.3315 12.2098 11.2744 12.2519 11.2088 12.2751C11.1433 12.2982 11.0723 12.3013 11.005 12.284C10.9398 12.2666 10.876 12.2446 10.814 12.218C10.69 12.166 10.647 12.146 10.562 12.11C9.98789 11.8599 9.45646 11.5215 8.98702 11.107C8.86102 10.997 8.74402 10.877 8.62402 10.761C8.23063 10.3842 7.88777 9.95799 7.60401 9.493L7.54501 9.398C7.50328 9.3338 7.46905 9.26501 7.44302 9.193C7.40502 9.046 7.50402 8.928 7.50402 8.928C7.50402 8.928 7.74702 8.662 7.86002 8.518C7.97002 8.378 8.06301 8.242 8.12302 8.145C8.24102 7.955 8.27802 7.76 8.21602 7.609C7.93602 6.925 7.64668 6.24467 7.34802 5.568C7.28902 5.434 7.11402 5.338 6.95502 5.319C6.90102 5.31233 6.84701 5.307 6.79302 5.303C6.65874 5.2953 6.52411 5.29664 6.39002 5.307L6.59202 5.3Z" fill="#F71729" />
+                                </svg>
+                            </a>
+    
+                            <a href="#" class="header__network">
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.0162 14.087C3.4674 13.9261 2.07034 13.5441 0.874595 12.608C0.725885 12.4914 0.572118 12.3788 0.437571 12.2491C-0.0864526 11.7464 -0.139057 11.1693 0.27571 10.5761C0.62978 10.0673 1.22462 9.93158 1.84272 10.2242C1.9621 10.2795 2.0754 10.3508 2.18567 10.4262C4.41428 11.9585 7.47648 12.0007 9.71319 10.4956C9.93575 10.3247 10.1725 10.1859 10.4466 10.1156C10.9808 9.97883 11.4785 10.1749 11.7648 10.6424C12.0925 11.1753 12.0885 11.6981 11.6849 12.1113C11.0668 12.7478 10.3222 13.2072 9.49569 13.528C8.7137 13.8316 7.85685 13.9844 7.01012 14.085C7.13759 14.2247 7.19828 14.2931 7.2782 14.3735C8.42842 15.5298 9.58472 16.683 10.7319 17.8432C11.1224 18.2394 11.2043 18.729 10.9889 19.1895C10.7531 19.6922 10.2271 20.023 9.71016 19.9878C9.3834 19.9647 9.12847 19.8018 8.90086 19.5736C8.03288 18.6989 7.14871 17.8402 6.29794 16.9494C6.05009 16.69 5.93071 16.7393 5.7122 16.9645C4.83917 17.8644 3.95197 18.7501 3.05769 19.6319C2.65708 20.027 2.1796 20.0984 1.71425 19.8732C1.22057 19.6319 0.904943 19.1282 0.930234 18.6204C0.94642 18.2766 1.11536 18.0152 1.35107 17.7799C2.48949 16.6404 3.62622 15.5009 4.76127 14.3615C4.83613 14.2851 4.90695 14.2046 5.0162 14.087Z" fill="#F71729" />
+                                    <path d="M5.96005 10.1236C3.19628 10.1136 0.930234 7.82119 0.945408 5.05025C0.961595 2.24915 3.22967 -0.00702153 6.02075 1.64211e-05C8.81689 0.00705438 11.0617 2.29741 11.0485 5.12767C11.0334 7.89258 8.75215 10.1327 5.96005 10.1236ZM8.47192 5.05628C8.47379 4.7325 8.41125 4.41153 8.2879 4.11184C8.16455 3.81216 7.98282 3.53965 7.75315 3.30999C7.52349 3.08034 7.25042 2.89806 6.94964 2.77363C6.64886 2.6492 6.32631 2.58508 6.00052 2.58496C5.67166 2.58464 5.34603 2.64945 5.04266 2.77561C4.73928 2.90176 4.46424 3.08672 4.2336 3.3197C4.00295 3.55268 3.82132 3.82899 3.69932 4.13251C3.57732 4.43603 3.51739 4.76066 3.52304 5.08745C3.52343 5.41137 3.58828 5.73201 3.71386 6.03092C3.83944 6.32983 4.02326 6.6011 4.25476 6.82912C4.48625 7.05713 4.76083 7.23739 5.0627 7.35951C5.36457 7.48163 5.68776 7.5432 6.01367 7.54068C6.33954 7.53938 6.66192 7.47396 6.96222 7.3482C7.26252 7.22244 7.53479 7.03882 7.76333 6.80795C7.99187 6.57708 8.17215 6.30351 8.29377 6.00304C8.41538 5.70257 8.47593 5.38114 8.47192 5.05729V5.05628Z" fill="#F71729" />
+                                </svg>
+                            </a>
+    
+                            <a href="#" class="header__network">
+                                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9283 0.616302C18.1742 0.513323 18.4434 0.477806 18.7078 0.513448C18.9722 0.54909 19.2221 0.654588 19.4316 0.818961C19.6411 0.983335 19.8025 1.20057 19.899 1.44807C19.9955 1.69556 20.0235 1.96427 19.9802 2.22621L17.7234 15.847C17.5044 17.1609 16.0556 17.9143 14.8446 17.2599C13.8316 16.7124 12.327 15.8688 10.9737 14.9886C10.297 14.548 8.22427 13.1371 8.47901 12.1332C8.69793 11.2747 12.1807 8.04899 14.1709 6.13116C14.952 5.3777 14.5958 4.94304 13.6734 5.63611C11.3827 7.35691 7.70483 9.97374 6.48884 10.7104C5.41614 11.3599 4.8569 11.4708 4.1882 11.3599C2.96823 11.1579 1.83682 10.845 0.913377 10.4638C-0.33446 9.94899 -0.27376 8.24206 0.912382 7.74503L17.9283 0.616302Z" fill="#F71729" />
+                                </svg>
+                            </a>
+                        </div>
+    
+                    </div>    
+                    
+                    <div class="header__main">
+                        <a href="index.html" class="header__logo logo">
+                            <picture class="logo__picture">
+                                <source srcset="assets/img/icons/logo.svg" type="image/svg+xml">
+                                <img src="assets/img/icons/logo.png" alt="Logo">
+                            </picture>
+                        </a>
+    
+                        <div class="header__menu">
+    
+                            <div class="header-mobile__wrapper search-wrapper">
+                                <div class="search-wrapper">
+                                    <form class="header__search_form form-search">
+                                        <input type="search" placeholder="Поиск" required class="popup__search_input input"> 
+                                        <img src="assets/img/icons/search-grey.svg" alt="search" class="popup__search_img">
+                                    </form>
+    
+                                    <div class="popup__search header__search_search">
+                                    </div>
+        
+                                    <div class="popup__search popup__search-result popup-search__search-result none">
+                                        <p class="no-results-message none">По вашему запросу ничего не найдено</p>
+                                        <ul class="search-list popup__search_list popup-search__list_result">
+                                            <li><a href="#" class="search-name"><p>Консультация психиатра с назначением препаратов и выпиской рецептов</p><span>Услуги</span></a></li>
+                                            <li><a href="#" class="search-name"><p>Консультация диетолога с составлением рациона питания на 7 дней (первичная)</p><span>Услуги</span></a></li>
+                                            <li><a href="#" class="search-name"><p>Первичная консультация врача-психотерапевта (20 мин)</p><span>Услуги</span></a></li>
+                                            <li><a href="#" class="search-name"><p>Клинико-психологическое консультирование (5 сеансов)</p><span>Статья</span></a></li>
+                                            <li><a href="#" class="search-name"><p>Первичная консультация врача-психотерапевта (20 мин)</p><span>Услуги</span></a></li>
+                                            <li><a href="#" class="search-name"><p>Клинико-психологическое консультирование (5 сеансов)</p><span>Статья</span></a></li>
+                                            <li><a href="#" class="search-name"><p>Клинико-психологическое консультирование (5 сеансов)</p><span>Услуги</span></a></li>
+                                            <li><a href="#" class="search-name"><p>Клинико-психологическое консультирование (5 сеансов)</p><span>Статья</span></a></li>
+                                            <li><a href="#" class="search-name"><p>Клинико-психологическое консультирование (5 сеансов)</p><span>Статья</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                            <nav class="header__nav">
+                                <ul class="header__nav_list">
+                                    <li class="header__nav_item header__nav_service hide-item">
+                                        <button class="hide-item__link hide-item_service">
+                                            <div class="header__nav_service-span">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <span>Услуги</span>
+                                        </button>
+                                        <!--  Меню 2-го уровня: service-submenu-1 (3 варианта) -->
+                                        <!--  Меню 3-го уровня: service-subsubmenu-1 (3 варианта) -->
+                                        <!-- service-submenu -->
+                                        <div class="header__submenu service-submenu">
+                                            <div class="header__submenu_search">
+                                                <div class="container">
+                                                    <form class="header__submenu_search-form ">
+                                                        <input type="search" placeholder="Поиск" required class="header__submenu_search-input"> 
+                                                        <img src="assets/img/icons/search.svg" alt="search" class="header__submenu_search-img">
+                                                    </form>
+                                                </div>
+                                            </div>
+                                                
+                                                
+                                            <div class="container">
+                                                <div class="header__submenu_tabs service-submenu__row">
+                                                    <div class="header__submenu_tab-btns">
+                                                        <button class="header__submenu_tab-btn active" style="order: 1">
+                                                            Наркомания
+                                                        </button>
+                                                        <button class="header__submenu_tab-btn" style="order: 3">
+                                                            Наркологическая помощь
+                                                        </button>
+                                                        <button class="header__submenu_tab-btn" style="order: 5">
+                                                            Лечение алкоголизма
+                                                        </button>
+                                                    </div>
+                                        
+                                                    <div class="header__submenu_tab-contents">
+                                                        <p class="no-results-msg" style="display: none;">Такая услуга не найдена</p>
+                                                        <div class="header__submenu_tab-content active" style="order: 2">
+                                                            <ul class="header__tab-content_list">
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        Лечение наркомании
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест Наркомания
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                        
+                                                        <div class="header__submenu_tab-content" style="order: 4">
+                                                            <ul class="header__tab-content_list">
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        Лечение наркомании
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест Наркомания
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест Наркомания
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                        
+                                                        <div class="header__submenu_tab-content" style="order: 6">
+                                                            <ul class="header__tab-content_list">
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="header__tab-content_item">
+                                                                        тест лечение алкоголизма
+                                                                        <span>от 5 000 руб</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                                </li>
+        
+                                    <li class="header__nav_item header__nav_about hide-item">
+                                        <button class="hide-item__link">О клинике</button>
+                                        <!-- Выбор 1 из меню submenu-1, submenu-2 или submenu-3 -->
+                                        <div class="header__submenu submenu-3">
+                                            <div class="container">
+                                                <ul>
+                                                    <li class="header__sublink"><a href="#">Лицензии</a></li>
+                                                    <li class="header__sublink"><a href="#">Наши специалисты</a></li>
+                                                    <li class="header__sublink"><a href="#">Фотогалерея</a></li>
+                                                    <li class="header__sublink"><a href="#">Отзывы</a></li>
+                                                    <li class="header__sublink"><a href="#">Оплата</a></li>
+                                                    <li class="header__sublink"><a href="#">Юридическая информация</a></li>
+                                                    <li class="header__sublink"><a href="#">Мы в СМИ</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>                                </li>
+        
+                                    <li class="header__nav_item">
+                                        <a href="#">Акции</a>
+                                    </li>
+        
+                                    <li class="header__nav_item">
+                                        <a href="#">FAQ</a>
+                                    </li>
+        
+                                    <li class="header__nav_item">
+                                        <a href="#">Статьи</a>
+                                    </li>
+        
+                                    <li class="header__nav_item">
+                                        <a href="#">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+        
+                            
+                            <div class="header__buttons">
+                                <button class="header__search popup-btn" data-path="popup-search">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.7832 14.3911L20 18.6069L18.6069 20L14.3911 15.7832C12.8224 17.0407 10.8713 17.7246 8.86088 17.7218C3.96968 17.7218 0 13.7521 0 8.86088C0 3.96968 3.96968 0 8.86088 0C13.7521 0 17.7218 3.96968 17.7218 8.86088C17.7246 10.8713 17.0407 12.8224 15.7832 14.3911ZM13.8082 13.6605C15.0574 12.3754 15.7552 10.6531 15.7527 8.86088C15.7527 5.05366 12.6681 1.96909 8.86088 1.96909C5.05366 1.96909 1.96909 5.05366 1.96909 8.86088C1.96909 12.6681 5.05366 15.7527 8.86088 15.7527C10.6531 15.7552 12.3754 15.0574 13.6605 13.8082L13.8082 13.6605Z" fill="#F71729" />
+                                    </svg>
+                                </button>
+                                <div class="header__btns">
+                                    <button class="secondary-btn popup-btn" data-path="popup-change"><span>Заказать звонок</span></button>
+                                    <button class="primary-btn popup-btn" data-path="popup-change"><span>Бесплатная консультация</span></button>
+                                </div>
+                            </div>
+    
+    
+                            <div class="header-mobile__wrapper header-mobile__info">
+                                <div class="header__info">
+    
+                                    <div class="header__info_item">
+                                        <div class="header__info_text">
+                                            <p>Номер телефона</p>
+                                            <a href="tel:89003284848">+7 (900) 328-48-48</a>
+                                        </div>
+                                    </div>
+    
+                                    <div class="header__info_item">
+                                        <div class="header__info_text">
+                                            <p>Адрес клиники</p>
+                                            <button href="#" class="popup-btn" data-path="popup-city">Москва, ул. Максима Горького, д. 68/49</button>
+                                        </div>
+                                    </div>
+    
+                                    <div class="header__info_item">
+                                        <div class="header__info_text">
+                                            <p>Электронная почта</p>
+                                            <a href="mailto:viezdnoy_narkolog@gmail.com">viezdnoy_narkolog@gmail.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="header__info_text">
+                                    <p>Социальные сети</p>
+            
+                                    <div class="header__networks">
+                                        <a href="#" class="header__network">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20C8.23277 20.003 6.4966 19.5353 4.97002 18.645L0.00401546 20L1.35602 15.032C0.464974 13.5049 -0.00308163 11.768 1.52687e-05 10C1.52687e-05 4.477 4.47702 0 10 0ZM6.59202 5.3L6.39201 5.308C6.26271 5.31691 6.13636 5.35087 6.02002 5.408C5.91159 5.46951 5.81258 5.5463 5.72602 5.636C5.60602 5.749 5.53802 5.847 5.46502 5.942C5.09514 6.4229 4.89599 7.01331 4.89902 7.62C4.90102 8.11 5.02902 8.587 5.22902 9.033C5.63802 9.935 6.31102 10.89 7.19902 11.775C7.41302 11.988 7.62302 12.202 7.84902 12.401C8.95245 13.3724 10.2673 14.073 11.689 14.447L12.257 14.534C12.442 14.544 12.627 14.53 12.813 14.521C13.1042 14.5056 13.3885 14.4268 13.646 14.29C13.7769 14.2223 13.9047 14.1489 14.029 14.07C14.029 14.07 14.0714 14.0413 14.154 13.98C14.289 13.88 14.372 13.809 14.484 13.692C14.568 13.6053 14.638 13.5047 14.694 13.39C14.772 13.227 14.85 12.916 14.882 12.657C14.906 12.459 14.899 12.351 14.896 12.284C14.892 12.177 14.803 12.066 14.706 12.019L14.124 11.758C14.124 11.758 13.254 11.379 12.722 11.137C12.6663 11.1128 12.6067 11.0989 12.546 11.096C12.4776 11.0888 12.4084 11.0965 12.3432 11.1184C12.278 11.1403 12.2182 11.176 12.168 11.223C12.163 11.221 12.096 11.278 11.373 12.154C11.3315 12.2098 11.2744 12.2519 11.2088 12.2751C11.1433 12.2982 11.0723 12.3013 11.005 12.284C10.9398 12.2666 10.876 12.2446 10.814 12.218C10.69 12.166 10.647 12.146 10.562 12.11C9.98789 11.8599 9.45646 11.5215 8.98702 11.107C8.86102 10.997 8.74402 10.877 8.62402 10.761C8.23063 10.3842 7.88777 9.95799 7.60401 9.493L7.54501 9.398C7.50328 9.3338 7.46905 9.26501 7.44302 9.193C7.40502 9.046 7.50402 8.928 7.50402 8.928C7.50402 8.928 7.74702 8.662 7.86002 8.518C7.97002 8.378 8.06301 8.242 8.12302 8.145C8.24102 7.955 8.27802 7.76 8.21602 7.609C7.93602 6.925 7.64668 6.24467 7.34802 5.568C7.28902 5.434 7.11402 5.338 6.95502 5.319C6.90102 5.31233 6.84701 5.307 6.79302 5.303C6.65874 5.2953 6.52411 5.29664 6.39002 5.307L6.59202 5.3Z" fill="white" />
+                                            </svg>
+                                        </a>
+            
+                                        <a href="#" class="header__network">
+                                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5.0162 14.087C3.4674 13.9261 2.07034 13.5441 0.874595 12.608C0.725885 12.4914 0.572118 12.3788 0.437571 12.2491C-0.0864526 11.7464 -0.139057 11.1693 0.27571 10.5761C0.62978 10.0673 1.22462 9.93158 1.84272 10.2242C1.9621 10.2795 2.0754 10.3508 2.18567 10.4262C4.41428 11.9585 7.47648 12.0007 9.71319 10.4956C9.93575 10.3247 10.1725 10.1859 10.4466 10.1156C10.9808 9.97883 11.4785 10.1749 11.7648 10.6424C12.0925 11.1753 12.0885 11.6981 11.6849 12.1113C11.0668 12.7478 10.3222 13.2072 9.49569 13.528C8.7137 13.8316 7.85685 13.9844 7.01012 14.085C7.13759 14.2247 7.19828 14.2931 7.2782 14.3735C8.42842 15.5298 9.58472 16.683 10.7319 17.8432C11.1224 18.2394 11.2043 18.729 10.9889 19.1895C10.7531 19.6922 10.2271 20.023 9.71016 19.9878C9.3834 19.9647 9.12847 19.8018 8.90086 19.5736C8.03288 18.6989 7.14871 17.8402 6.29794 16.9494C6.05009 16.69 5.93071 16.7393 5.7122 16.9645C4.83917 17.8644 3.95197 18.7501 3.05769 19.6319C2.65708 20.027 2.1796 20.0984 1.71425 19.8732C1.22057 19.6319 0.904943 19.1282 0.930234 18.6204C0.94642 18.2766 1.11536 18.0152 1.35107 17.7799C2.48949 16.6404 3.62622 15.5009 4.76127 14.3615C4.83613 14.2851 4.90695 14.2046 5.0162 14.087Z" fill="white" />
+                                                <path d="M5.96005 10.1236C3.19628 10.1136 0.930234 7.82119 0.945408 5.05025C0.961595 2.24915 3.22967 -0.00702153 6.02075 1.64211e-05C8.81689 0.00705438 11.0617 2.29741 11.0485 5.12767C11.0334 7.89258 8.75215 10.1327 5.96005 10.1236ZM8.47192 5.05628C8.47379 4.7325 8.41125 4.41153 8.2879 4.11184C8.16455 3.81216 7.98282 3.53965 7.75315 3.30999C7.52349 3.08034 7.25042 2.89806 6.94964 2.77363C6.64886 2.6492 6.32631 2.58508 6.00052 2.58496C5.67166 2.58464 5.34603 2.64945 5.04266 2.77561C4.73928 2.90176 4.46424 3.08672 4.2336 3.3197C4.00295 3.55268 3.82132 3.82899 3.69932 4.13251C3.57732 4.43603 3.51739 4.76066 3.52304 5.08745C3.52343 5.41137 3.58828 5.73201 3.71386 6.03092C3.83944 6.32983 4.02326 6.6011 4.25476 6.82912C4.48625 7.05713 4.76083 7.23739 5.0627 7.35951C5.36457 7.48163 5.68776 7.5432 6.01367 7.54068C6.33954 7.53938 6.66192 7.47396 6.96222 7.3482C7.26252 7.22244 7.53479 7.03882 7.76333 6.80795C7.99187 6.57708 8.17215 6.30351 8.29377 6.00304C8.41538 5.70257 8.47593 5.38114 8.47192 5.05729V5.05628Z" fill="white" />
+                                            </svg>
+                                        </a>
+            
+                                        <a href="#" class="header__network">
+                                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9283 0.616302C18.1742 0.513323 18.4434 0.477806 18.7078 0.513448C18.9722 0.54909 19.2221 0.654588 19.4316 0.818961C19.6411 0.983335 19.8025 1.20057 19.899 1.44807C19.9955 1.69556 20.0235 1.96427 19.9802 2.22621L17.7234 15.847C17.5044 17.1609 16.0556 17.9143 14.8446 17.2599C13.8316 16.7124 12.327 15.8688 10.9737 14.9886C10.297 14.548 8.22427 13.1371 8.47901 12.1332C8.69793 11.2747 12.1807 8.04899 14.1709 6.13116C14.952 5.3777 14.5958 4.94304 13.6734 5.63611C11.3827 7.35691 7.70483 9.97374 6.48884 10.7104C5.41614 11.3599 4.8569 11.4708 4.1882 11.3599C2.96823 11.1579 1.83682 10.845 0.913377 10.4638C-0.33446 9.94899 -0.27376 8.24206 0.912382 7.74503L17.9283 0.616302Z" fill="white" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="header-mobile__wrapper">
+                            <div class="burger__menu">
+                                <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                                    <path
+                                        class="line top"
+                                        d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                                    <path
+                                        class="line middle"
+                                        d="m 70,50 h -40" />
+                                    <path
+                                        class="line bottom"
+                                        d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+    
+            </div>
+        </header><main class="main">
+    <div class="page__top">
+        <div class="container">
+            <div class="page__top_inner">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li>Врачи</li>
+                </ul>
+        
+                <h1 class="title-h1">Врачи наркологии</h1>
+            </div>
+        </div>
+    </div>
+    
+    <!-- doctors -->
+    <section class="doctors section-offset">
+        <div class="container">
+    
+    
+            <div class="doctors-page__cards">
+    
+                <div class="doctors-page__card change-item main-doctor">
+                    <p class="doctors__fio title-h2 change-item__title">Тишкина Ольга Сергеевна</p>
+                    <div class="doctors__row">
+                        <div class="doctors__content">
+                            <ul class="doctors__info">
+                                <li><p>Должность:</p><span>Главный врач, психиатр-нарколог</span></li>
+                                <li><p>Стаж:</p><span>13 лет</span></li>
+                                <li><p>Ученая степень:</p><span>Доктор медицинских наук</span></li>
+                            </ul>
+                            <div class="doctors__btns">
+                                <a href="#" class="primary-btn">Подробнее</a>
+                                <button class="secondary-btn popup-btn change-item__btn doctor__btn-js" data-path="popup-change">Записаться</button>
+                            </div>
+                        </div>
+        
+                        <picture class="doctors__photo">
+                            <source srcset="assets/img/doctors/doctor-1.webp" type="image/webp">
+                            <img src="assets/img/doctors/doctor-1.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+    
+    
+                <div class="doctors-page__card change-item">
+                    <p class="doctors__fio title-h2 change-item__title">Тишкин Олег Сергеевич</p>
+                    <div class="doctors__row">
+                        <div class="doctors__content">
+                            <ul class="doctors__info">
+                                <li><p>Должность:</p><span>Главный врач, психиатр-нарколог</span></li>
+                                <li><p>Стаж:</p><span>13 лет</span></li>
+                                <li><p>Ученая степень:</p><span>Доктор медицинских наук</span></li>
+                            </ul>
+                            <div class="doctors__btns">
+                                <a href="#" class="primary-btn">Подробнее</a>
+                                <button class="secondary-btn popup-btn change-item__btn doctor__btn-js" data-path="popup-change">Записаться</button>
+                            </div>
+                        </div>
+        
+                        <picture class="doctors__photo">
+                            <source srcset="assets/img/doctors/doctor-2.webp" type="image/webp">
+                            <img src="assets/img/doctors/doctor-2.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+    
+    
+                <div class="doctors-page__card change-item">
+                    <p class="doctors__fio title-h2 change-item__title">Тишкина Ольга Сергеевна</p>
+                    <div class="doctors__row">
+                        <div class="doctors__content">
+                            <ul class="doctors__info">
+                                <li><p>Должность:</p><span>Главный врач, психиатр-нарколог</span></li>
+                                <li><p>Стаж:</p><span>13 лет</span></li>
+                                <li><p>Ученая степень:</p><span>Доктор медицинских наук</span></li>
+                            </ul>
+                            <div class="doctors__btns">
+                                <a href="#" class="primary-btn">Подробнее</a>
+                                <button class="secondary-btn popup-btn change-item__btn doctor__btn-js" data-path="popup-change">Записаться</button>
+                            </div>
+                        </div>
+        
+                        <picture class="doctors__photo">
+                            <source srcset="assets/img/doctors/doctor-1.webp" type="image/webp">
+                            <img src="assets/img/doctors/doctor-1.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+    
+    
+                <div class="doctors-page__card change-item">
+                    <p class="doctors__fio title-h2 change-item__title">Тишкин Олег Сергеевич</p>
+                    <div class="doctors__row">
+                        <div class="doctors__content">
+                            <ul class="doctors__info">
+                                <li><p>Должность:</p><span>Главный врач, психиатр-нарколог</span></li>
+                                <li><p>Стаж:</p><span>13 лет</span></li>
+                                <li><p>Ученая степень:</p><span>Доктор медицинских наук</span></li>
+                            </ul>
+                            <div class="doctors__btns">
+                                <a href="#" class="primary-btn">Подробнее</a>
+                                <button class="secondary-btn popup-btn change-item__btn doctor__btn-js" data-path="popup-change">Записаться</button>
+                            </div>
+                        </div>
+        
+                        <picture class="doctors__photo">
+                            <source srcset="assets/img/doctors/doctor-2.webp" type="image/webp">
+                            <img src="assets/img/doctors/doctor-2.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+    
+            </div>
+    
+    
+        </div>
+    </section>
+    
+    <!-- contacts -->
+    <section class="contacts section-offset">
+        <div class="container">
+            <div class="contacts__title">
+                <p class="title-h2">Контакты</p>
+    
+                <div class="contacts__items">
+                    <div class="contacts__item">
+                        <div class="contacts__item_top">
+                            <p>Номер телефона</p>
+                            <picture class="contacts__item_icon">
+                                <img src="assets/img/icons/phone.svg" alt="" loading="lazy">
+                            </picture>
+                        </div>
+                        <a href="tel:89003284848" class="contacts__item_text">+7 (900) 328-48-48</a>
+                    </div>
+        
+                    <div class="contacts__item">
+                        <div class="contacts__item_top">
+                            <p>Адрес клиники</p>
+                            <picture class="contacts__item_icon">
+                                <img src="assets/img/icons/location-2.svg" alt="" loading="lazy">
+                            </picture>
+                        </div>
+                        <button class="contacts__item_text popup-btn" data-path="popup-city">Москва, ул. Максима Горького, д. 68/49</button>
+                    </div>
+                    
+                    <div class="contacts__item">
+                        <div class="contacts__item_top">
+                            <p>Электронная почта</p>
+                            <picture class="contacts__item_icon">
+                                <img src="assets/img/icons/mail.svg" alt="" loading="lazy">
+                            </picture>
+                        </div>
+                        <a href="mailto:pochta-medidin@gmail.com" class="contacts__item_text">viezdnoy_narkolog@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="contacts__maps">
+                <div id="map__container2" class="contacts__map">
+                    <div id="map2" style="width: 100%; height: 100%;">
+                        <img id="map-placeholder2" src="assets/img/map.jpg" alt="Map" style="width: 100%; height: 100%; cursor: pointer; object-fit: cover; filter: blur(3.5px);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+    
+                <div class="footer__contant">
+                    <a href="/" class="footer__logo logo">
+                        <picture class="logo__picture">
+                            <source srcset="assets/img/icons/logo-white.svg" type="image/svg+xml">
+                            <img src="assets/img/icons/logo-white.png" alt="Logo">
+                        </picture>
+                    </a>
+    
+                    <div class="footer__networks">
+                        <p class="footer__text">Социальные сети</p>
+                        <div class="footer__networks_row">
+                            <a href="#" class="footer__network">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 0C15.523 0 20 4.477 20 10C20 15.523 15.523 20 10 20C8.23277 20.003 6.4966 19.5353 4.97002 18.645L0.00401546 20L1.35602 15.032C0.464974 13.5049 -0.00308163 11.768 1.52687e-05 10C1.52687e-05 4.477 4.47702 0 10 0ZM6.59202 5.3L6.39201 5.308C6.26271 5.31691 6.13636 5.35087 6.02002 5.408C5.91159 5.46951 5.81258 5.5463 5.72602 5.636C5.60602 5.749 5.53802 5.847 5.46502 5.942C5.09514 6.4229 4.89599 7.01331 4.89902 7.62C4.90102 8.11 5.02902 8.587 5.22902 9.033C5.63802 9.935 6.31102 10.89 7.19902 11.775C7.41302 11.988 7.62302 12.202 7.84902 12.401C8.95245 13.3724 10.2673 14.073 11.689 14.447L12.257 14.534C12.442 14.544 12.627 14.53 12.813 14.521C13.1042 14.5056 13.3885 14.4268 13.646 14.29C13.7769 14.2223 13.9047 14.1489 14.029 14.07C14.029 14.07 14.0714 14.0413 14.154 13.98C14.289 13.88 14.372 13.809 14.484 13.692C14.568 13.6053 14.638 13.5047 14.694 13.39C14.772 13.227 14.85 12.916 14.882 12.657C14.906 12.459 14.899 12.351 14.896 12.284C14.892 12.177 14.803 12.066 14.706 12.019L14.124 11.758C14.124 11.758 13.254 11.379 12.722 11.137C12.6663 11.1128 12.6067 11.0989 12.546 11.096C12.4776 11.0888 12.4084 11.0965 12.3432 11.1184C12.278 11.1403 12.2182 11.176 12.168 11.223C12.163 11.221 12.096 11.278 11.373 12.154C11.3315 12.2098 11.2744 12.2519 11.2088 12.2751C11.1433 12.2982 11.0723 12.3013 11.005 12.284C10.9398 12.2666 10.876 12.2446 10.814 12.218C10.69 12.166 10.647 12.146 10.562 12.11C9.98789 11.8599 9.45646 11.5215 8.98702 11.107C8.86102 10.997 8.74402 10.877 8.62402 10.761C8.23063 10.3842 7.88777 9.95799 7.60401 9.493L7.54501 9.398C7.50328 9.3338 7.46905 9.26501 7.44302 9.193C7.40502 9.046 7.50402 8.928 7.50402 8.928C7.50402 8.928 7.74702 8.662 7.86002 8.518C7.97002 8.378 8.06301 8.242 8.12302 8.145C8.24102 7.955 8.27802 7.76 8.21602 7.609C7.93602 6.925 7.64668 6.24467 7.34802 5.568C7.28902 5.434 7.11402 5.338 6.95502 5.319C6.90102 5.31233 6.84701 5.307 6.79302 5.303C6.65874 5.2953 6.52411 5.29664 6.39002 5.307L6.59202 5.3Z" fill="white" />
+                                </svg>
+                            </a>
+                            <a href="#" class="footer__network">
+                                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.0162 14.087C3.4674 13.9261 2.07034 13.5441 0.874595 12.608C0.725885 12.4914 0.572118 12.3788 0.437571 12.2491C-0.0864526 11.7464 -0.139057 11.1693 0.27571 10.5761C0.62978 10.0673 1.22462 9.93158 1.84272 10.2242C1.9621 10.2795 2.0754 10.3508 2.18567 10.4262C4.41428 11.9585 7.47648 12.0007 9.71319 10.4956C9.93575 10.3247 10.1725 10.1859 10.4466 10.1156C10.9808 9.97883 11.4785 10.1749 11.7648 10.6424C12.0925 11.1753 12.0885 11.6981 11.6849 12.1113C11.0668 12.7478 10.3222 13.2072 9.49569 13.528C8.7137 13.8316 7.85685 13.9844 7.01012 14.085C7.13759 14.2247 7.19828 14.2931 7.2782 14.3735C8.42842 15.5298 9.58472 16.683 10.7319 17.8432C11.1224 18.2394 11.2043 18.729 10.9889 19.1895C10.7531 19.6922 10.2271 20.023 9.71016 19.9878C9.3834 19.9647 9.12847 19.8018 8.90086 19.5736C8.03288 18.6989 7.14871 17.8402 6.29794 16.9494C6.05009 16.69 5.93071 16.7393 5.7122 16.9645C4.83917 17.8644 3.95197 18.7501 3.05769 19.6319C2.65708 20.027 2.1796 20.0984 1.71425 19.8732C1.22057 19.6319 0.904943 19.1282 0.930234 18.6204C0.94642 18.2766 1.11536 18.0152 1.35107 17.7799C2.48949 16.6404 3.62622 15.5009 4.76127 14.3615C4.83613 14.2851 4.90695 14.2046 5.0162 14.087Z" fill="white" />
+                                    <path d="M5.96005 10.1236C3.19628 10.1136 0.930234 7.82119 0.945408 5.05025C0.961595 2.24915 3.22967 -0.00702153 6.02075 1.64211e-05C8.81689 0.00705438 11.0617 2.29741 11.0485 5.12767C11.0334 7.89258 8.75215 10.1327 5.96005 10.1236ZM8.47192 5.05628C8.47379 4.7325 8.41125 4.41153 8.2879 4.11184C8.16455 3.81216 7.98282 3.53965 7.75315 3.30999C7.52349 3.08034 7.25042 2.89806 6.94964 2.77363C6.64886 2.6492 6.32631 2.58508 6.00052 2.58496C5.67166 2.58464 5.34603 2.64945 5.04266 2.77561C4.73928 2.90176 4.46424 3.08672 4.2336 3.3197C4.00295 3.55268 3.82132 3.82899 3.69932 4.13251C3.57732 4.43603 3.51739 4.76066 3.52304 5.08745C3.52343 5.41137 3.58828 5.73201 3.71386 6.03092C3.83944 6.32983 4.02326 6.6011 4.25476 6.82912C4.48625 7.05713 4.76083 7.23739 5.0627 7.35951C5.36457 7.48163 5.68776 7.5432 6.01367 7.54068C6.33954 7.53938 6.66192 7.47396 6.96222 7.3482C7.26252 7.22244 7.53479 7.03882 7.76333 6.80795C7.99187 6.57708 8.17215 6.30351 8.29377 6.00304C8.41538 5.70257 8.47593 5.38114 8.47192 5.05729V5.05628Z" fill="white" />
+                                </svg>
+                            </a>
+                            <a href="#" class="footer__network">
+                                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.9283 0.616302C18.1742 0.513323 18.4434 0.477806 18.7078 0.513448C18.9722 0.54909 19.2221 0.654588 19.4316 0.818961C19.6411 0.983335 19.8025 1.20057 19.899 1.44807C19.9955 1.69556 20.0235 1.96427 19.9802 2.22621L17.7234 15.847C17.5044 17.1609 16.0556 17.9143 14.8446 17.2599C13.8316 16.7124 12.327 15.8688 10.9737 14.9886C10.297 14.548 8.22427 13.1371 8.47901 12.1332C8.69793 11.2747 12.1807 8.04899 14.1709 6.13116C14.952 5.3777 14.5958 4.94304 13.6734 5.63611C11.3827 7.35691 7.70483 9.97374 6.48884 10.7104C5.41614 11.3599 4.8569 11.4708 4.1882 11.3599C2.96823 11.1579 1.83682 10.845 0.913377 10.4638C-0.33446 9.94899 -0.27376 8.24206 0.912382 7.74503L17.9283 0.616302Z" fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__items">
+                        <div class="footer__item">
+                            <p class="footer__text">Номер телефона</p>
+                            <a href="tel:89003284848" class="footer__link">+7 (900) 328-48-48</a>
+                        </div>
+    
+                        <div class="footer__item">
+                            <p class="footer__text">Адрес клиники</p>
+                            <button class="footer__link popup-btn" data-path="popup-city">Москва, ул. Максима Горького, д. 68/49</button>
+                        </div>
+                        
+                        <div class="footer__item">
+                            <p class="footer__text">Электронная почта</p>
+                            <a href="mailto:pochta-medidin@gmail.com" class="footer__link">viezdnoy_narkolog@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="footer__right">
+                    <p class="footer__text">Навигация</p>
+                    <nav class="footer__nav">
+                        <div class="footer__nav_item">
+                            <p class="footer__nav_acc footer__nav_link">Наши услуги</p>
+                            <ul>
+                                <li><a href="#">Вывод из запоя</a></li>
+                                <li><a href="#">Лечение алкоголизма</a></li>
+                                <li><a href="#">Кодирование от алкоголизма</a></li>
+                                <li><a href="#">Капельницы на дом</a></li>
+                                <li><a href="#">Психиатрия и помощь психолога</a></li>
+                                <li><a href="#">Наркомания и другие зависимости</a></li>
+                                <li><a href="#">Другое</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="footer__nav_item">
+                            <p class="footer__nav_acc footer__nav_link">О клинике</p>
+                            <ul>
+                                <li><a href="#">Лицензии</a></li>
+                                <li><a href="#">Наши специалисты</a></li>
+                                <li><a href="#">Фотогалерея</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Оплата</a></li>
+                                <li><a href="#">Юридическая информация</a></li>
+                                <li><a href="#">Мы в СМИ</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="footer__nav_item">
+                            <a href="#" class="footer__nav_link">Акции</a>
+                        </div>
+                        <div class="footer__nav_item">
+                            <a href="#" class="footer__nav_link">Статьи</a>
+                        </div>
+                        <div class="footer__nav_item">
+                            <a href="#" class="footer__nav_link">FAQ</a>
+                        </div>
+                        <div class="footer__nav_item">
+                            <a href="#" class="footer__nav_link">Контакты</a>
+                        </div>
+    
+                    </nav>
+                </div>
+            </div>
+    
+            <div class="footer__copy">
+                <p>Вся информация на сайте не является публичной офертой, несёт сугубо информационный характер, и не служит для постановки диагноза и назначения лечения. Есть противопоказания, необходимо проконсультироваться с врачом. Консультационные услуги, оказываемые по телефону, мессенджерам и в соцсетях носят исключительно информационный характер и не являются медицинскими услугами. Оставаясь на сайте вы соглашаетесь на использование cookies. 18+</p>
+                <p>Все права защищены © 2025 viezdnoy-narkolog24.ru</p>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Pop-up change 1 -->
+    <div class="popup" data-target="popup-change"> 
+        <div class="popup__body">
+            <div class="popup__content popup-change__content">
+                <picture class="close-popup close-popup-btn popup-change__close">
+                    <source srcset="assets/img/icons/popup-close.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-close.png" alt="close_popup">
+                </picture> 
+    
+                <div class="popup-change__text">
+                    <p class="popup-change__title original-title">Оставьте заявку на&nbsp;оказание помощи</p>
+                    <p class="popup-change__subtitle">Оставьте номер телефона и мы перезвоним вам через 5 минут</p>                        
+                </div>
+    
+                <form class="popup-change__form">
+                    <input name='catalogue' type='hidden' value='<?= $current_catalogue["Catalogue_ID"] ?>' />
+                    <input name="BitrixID" type="hidden" value='<?= $current_catalogue["BitrixID"] ?>'>
+                    <input name='city' type='hidden' value='<?= $current_catalogue["Catalogue_Name"] ?>' />
+                    <input name='type' type='hidden' value='request' /> 
+                    <input name='cc' type='hidden' value='' /> 
+                    <input name='sub' type='hidden' value='' /> 
+                    <input name='mes' type='hidden' value='' /> 
+                    <input name="urlMessage" type="hidden" value="">
+                    <input name="title_url_message" type="hidden" value="">
+                    <div class="input-block">
+                        <label for="change-name">Имя</label>
+                        <input type="text" name='params[name][]' id="change-name" class="input popup-change__input" placeholder="Введите ваше имя" required> 
+                    </div>
+    
+                    <div class="input-block">
+                        <label for="change-tel">Номер телефона</label>
+                        <input type="tel" name='params[phone][]' id="change-tel" class="input popup-change__input" placeholder="+7 (___)-___-__-__" required> 
+                    </div>
+    
+                    <button type="submit" class="button-arrow">
+                        <p class="button-arrow__btn popup-change__btn">Отправить заявку</p>
+                        <div class="button-arrow__icon">
+                            <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 9L19 9M19 9L11 17M19 9L11 1" stroke="white" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </button>
+                    <p class="politic popup-change__politic">Нажимая на кнопку "Отправить заявку", вы соглашаетесь с <a href="#" rel="nofollow">обработкой персональных данных</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="popup popup-responce" data-modal-ok="result-wrapper" data-modal-open="open active">
+        <div class="popup__body">
+            <div class="popup__content popup-change__content popup-change-response__content">
+                <picture class="close-popup close-popup-btn popup-change__close">
+                    <source srcset="assets/img/icons/popup-close.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-close.png" alt="close_popup">
+                </picture>
+    
+                <div class="result-wrapper popup-change-response__wrapper">
+                    <h3>Ваша заявка принята</h3>
+                    <p>Он будет опубликован после проверки модератором.</p>
+                </div>
+    
+                <div class="popup-change-response__btn">
+                    <button class="secondary-btn close-popup-btn">Вернуться на страницу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="popup popup-responce" data-modal-err="result-wrapper" data-modal-open="open active">
+        <div class="popup__body">
+            <div class="popup__content popup-change__content popup-change-response__content">
+                <picture class="close-popup close-popup-btn popup-change__close">
+                    <source srcset="assets/img/icons/popup-close.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-close.png" alt="close_popup">
+                </picture>
+                
+                <div class="result-wrapper popup-change-response__wrapper">
+                    <h3>Ошибка отправления заявки</h3>
+                    <p>Ого! Вы похожи на робота! Попробуйте отправить заявку позже</p>
+                </div>
+    
+                <div class="popup-change-response__btn">
+                    <button class="secondary-btn close-popup-btn">Вернуться на страницу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- popup search 2 -->
+    <div class="popup" data-target="popup-search"> 
+        <div class="popup__body popup-search__body">
+            <div class="popup__content popup-search__content search-wrapper">
+    
+                <div class="container">
+                    <form class="popup__search_form popup-search__form">
+                        <input type="search" placeholder="Поиск" required class="popup__search_input input"> 
+                        <img src="assets/img/icons/search-grey.svg" alt="search" class="popup__search_img">
+    
+                        <picture class="close-popup close-popup-btn popup-search__close">
+                            <source srcset="assets/img/icons/popup-search-close.svg" type="image/svg+xml">
+                            <img src="assets/img/icons/popup-search-close.png" alt="close_popup">
+                        </picture>
+                    </form>
+    
+                    <div class="popup__search popup-search__search ">
+                        <ul class="popup__search_list popup-search__list">
+                            <li><a href="#">Консультация психиатра</a></li>
+                            <li><a href="#">Первичная консультация врача-психотерапевта</a></li>
+                            <li><a href="#">Клинико-психологическое консультирование</a></li>
+                            <li><a href="#">Первичная консультация врача-психотерапевта</a></li>
+                            <li><a href="#">Клинико-психологическое консультирование</a></li>
+                            <li><a href="#">Консультация диетолога</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="popup__search popup__search-result popup-search__search-result none">
+                        <p class="no-results-message none">По вашему запросу ничего не найдено</p>
+                        <ul class="search-list popup__search_list popup-search__list_result">
+                            <li><a href="#" class="search-name"><p>Консультация психиатра с назначением препаратов и выпиской рецептов</p><span>Услуги</span></a></li>
+                            <li><a href="#" class="search-name"><p>Консультация диетолога с составлением рациона питания на 7 дней (первичная)</p><span>Услуги</span></a></li>
+                            <li><a href="#" class="search-name"><p>Первичная консультация врача-психотерапевта (20 мин)</p><span>Услуги</span></a></li>
+                            <li><a href="#" class="search-name"><p>Клинико-психологическое консультирование (5 сеансов)</p><span>Статья</span></a></li>
+                            <li><a href="#" class="search-name"><p>Первичная консультация врача-психотерапевта (20 мин)</p><span>Услуги</span></a></li>
+                            <li><a href="#" class="search-name"><p>Клинико-психологическое консультирование (5 сеансов)</p><span>Статья</span></a></li>
+                            <li><a href="#" class="search-name"><p>Клинико-психологическое консультирование (5 сеансов)</p><span>Услуги</span></a></li>
+                            <li><a href="#" class="search-name"><p>Клинико-психологическое консультирование (5 сеансов)</p><span>Статья</span></a></li>
+                            <li><a href="#" class="search-name"><p>Клинико-психологическое консультирование (5 сеансов)</p><span>Статья</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- popup-widget -->
+    <div id="popup-widget" class="popup-widget">
+        <div class="popup-widget__row">
+            <a href="#" class="popup-widget__link">
+                <div class="popup-widget__link_icon">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0_573_10021" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="1" y="0" width="16" height="18">
+                            <path d="M15.2222 1H2.77778C2.5715 1 2.37367 1.08429 2.22781 1.23431C2.08194 1.38434 2 1.58783 2 1.8V16.2C2 16.4122 2.08194 16.6157 2.22781 16.7657C2.37367 16.9157 2.5715 17 2.77778 17H15.2222C15.4285 17 15.6263 16.9157 15.7722 16.7657C15.9181 16.6157 16 16.4122 16 16.2V1.8C16 1.58783 15.9181 1.38434 15.7722 1.23431C15.6263 1.08429 15.4285 1 15.2222 1Z" fill="white" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                            <path d="M13.2782 3.40039H4.72266V7.00039H13.2782V3.40039Z" fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                            <path d="M4.33203 10.6006L7.05425 13.4006M7.05425 10.6006L4.33203 13.4006M10.5543 13.4006H13.6654M10.5543 11.0006H13.6654" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </mask>
+                        <g mask="url(#mask0_573_10021)">
+                            <path d="M-0.332031 -0.599609H18.3346V18.6004H-0.332031V-0.599609Z" fill="#F71729" />
+                        </g>
+                    </svg>
+                </div>
+                <p>Калькулятор</p>
+            </a>     
+            
+            <a href="#" class="popup-widget__link">
+                <div class="popup-widget__link_icon">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.00105 16C10.5542 15.9998 12.0632 15.483 13.2904 14.5311C14.5176 13.5791 15.3934 12.2461 15.7799 10.7417C16.1663 9.23744 16.0415 7.64733 15.4251 6.22174C14.8086 4.79616 13.7356 3.61607 12.3748 2.86727C11.0141 2.11846 9.44298 1.84347 7.90882 2.08558C6.37465 2.3277 4.96457 3.07316 3.90057 4.20462C2.83657 5.33608 2.17909 6.78927 2.03163 8.33541C1.88417 9.88155 2.25511 11.4328 3.08604 12.745L2.00104 16L5.25605 14.915C6.37572 15.6256 7.6749 16.002 9.00105 16Z" fill="#F71729" stroke="#F71729" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <p>Онлайн-чат</p>
+            </a>  
+    
+            <a href="#" class="popup-widget__link">
+                <div class="popup-widget__link_icon">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8191 2.10262C16.0361 2.01176 16.2736 1.98042 16.5069 2.01187C16.7401 2.04331 16.9607 2.1364 17.1455 2.28144C17.3304 2.42647 17.4728 2.61815 17.5579 2.83653C17.6431 3.05491 17.6678 3.292 17.6296 3.52312L15.6383 15.5415C15.4451 16.7008 14.1667 17.3656 13.0982 16.7881C12.2043 16.305 10.8768 15.5607 9.68267 14.7841C9.08562 14.3953 7.25671 13.1504 7.48148 12.2645C7.67464 11.5071 10.7477 8.66087 12.5037 6.96867C13.193 6.30385 12.8786 5.92033 12.0647 6.53186C10.0435 8.05021 6.79838 10.3592 5.72545 11.0092C4.77895 11.5823 4.2855 11.6801 3.69547 11.5823C2.61902 11.404 1.62072 11.128 0.805921 10.7916C-0.295112 10.3373 -0.241553 8.83123 0.805043 8.39267L15.8191 2.10262Z" fill="#F71729" />
+                    </svg>
+                </div>
+                <p>Телеграм</p>
+            </a>  
+    
+            <a href="#" class="popup-widget__link">
+                <div class="popup-widget__link_icon">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.28125 8.5625C3.375 8.5625 2.60156 8.24219 1.96094 7.60156C1.32031 6.96094 1 6.1875 1 5.28125C1 4.375 1.32031 3.60156 1.96094 2.96094C2.60156 2.32031 3.375 2 4.28125 2C5.1875 2 5.96094 2.32031 6.60156 2.96094C7.24219 3.60156 7.5625 4.375 7.5625 5.28125C7.5625 6.1875 7.24219 6.96094 6.60156 7.60156C5.96094 8.24219 5.1875 8.5625 4.28125 8.5625ZM4.28125 6.6875C4.67188 6.6875 5.00406 6.55094 5.27781 6.27781C5.55156 6.00469 5.68813 5.6725 5.6875 5.28125C5.68687 4.89 5.55031 4.55813 5.27781 4.28563C5.00531 4.01313 4.67313 3.87625 4.28125 3.875C3.88937 3.87375 3.5575 4.01063 3.28563 4.28563C3.01375 4.56063 2.87688 4.8925 2.875 5.28125C2.87312 5.67 3.01 6.00219 3.28563 6.27781C3.56125 6.55344 3.89313 6.69 4.28125 6.6875ZM12.7188 17C11.8125 17 11.0391 16.6797 10.3984 16.0391C9.75781 15.3984 9.4375 14.625 9.4375 13.7188C9.4375 12.8125 9.75781 12.0391 10.3984 11.3984C11.0391 10.7578 11.8125 10.4375 12.7188 10.4375C13.625 10.4375 14.3984 10.7578 15.0391 11.3984C15.6797 12.0391 16 12.8125 16 13.7188C16 14.625 15.6797 15.3984 15.0391 16.0391C14.3984 16.6797 13.625 17 12.7188 17ZM12.7188 15.125C13.1094 15.125 13.4416 14.9884 13.7153 14.7153C13.9891 14.4422 14.1256 14.11 14.125 13.7188C14.1244 13.3275 13.9878 12.9956 13.7153 12.7231C13.4428 12.4506 13.1106 12.3138 12.7188 12.3125C12.3269 12.3112 11.995 12.4481 11.7231 12.7231C11.4513 12.9981 11.3144 13.33 11.3125 13.7188C11.3106 14.1075 11.4475 14.4397 11.7231 14.7153C11.9987 14.9909 12.3306 15.1275 12.7188 15.125ZM1.65625 16.3437C1.48437 16.1719 1.39844 15.9531 1.39844 15.6875C1.39844 15.4219 1.48437 15.2031 1.65625 15.0312L14.0312 2.65625C14.2031 2.48437 14.4219 2.39844 14.6875 2.39844C14.9531 2.39844 15.1719 2.48437 15.3437 2.65625C15.5156 2.82812 15.6016 3.04688 15.6016 3.3125C15.6016 3.57813 15.5156 3.79687 15.3437 3.96875L2.96875 16.3437C2.79687 16.5156 2.57813 16.6016 2.3125 16.6016C2.04688 16.6016 1.82812 16.5156 1.65625 16.3437Z" fill="#F71729" />
+                    </svg>
+                </div>
+                <p>Акции и скидки</p>
+            </a>  
+    
+            <a href="#" class="popup-widget__link">
+                <div class="popup-widget__link_icon">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.079 11.6231L11.6771 12.0227C11.6771 12.0227 10.7219 12.9725 8.11452 10.3799C5.50718 7.78737 6.4624 6.83757 6.4624 6.83757L6.71546 6.58593C7.33893 5.96604 7.39769 4.97081 6.85372 4.24425L5.74112 2.75801C5.0679 1.85875 3.76703 1.73996 2.9954 2.5072L1.61046 3.88428C1.22785 4.26472 0.971454 4.75788 1.00255 5.30496C1.08209 6.70456 1.71533 9.71593 5.24886 13.2294C8.99599 16.9552 12.5119 17.1033 13.9497 16.9692C14.4045 16.9269 14.8 16.6953 15.1187 16.3783L16.3721 15.1321C17.2182 14.2908 16.9796 12.8485 15.8971 12.26L14.2113 11.3436C13.5005 10.9572 12.6346 11.0707 12.079 11.6231Z" fill="#F71729" />
+                    </svg>
+                </div>
+                <p>Обратный звонок</p>
+            </a>  
+    
+            <button class="popup-widget__link btn-close" id="widget-close">
+                <div class="popup-widget__link_icon">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 2L12 9L5 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <p>Свернуть</p>
+            </button>  
+    
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
